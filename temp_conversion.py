@@ -1,11 +1,14 @@
 
 def convert_100_to_celsius():
     f = 100
-    celsius_100 = (f-32) * 5/9
+    celsius_100 = (f-32) * 5 / 9
+    print(celsius_100)
     if(type (celsius_100) == float):
         print("float")
     else:
         print('integer')
+    #I know it's a float because the answer should be a decimal
+
     # Convert a temperature of 100 degrees fahrenheit to celsius
     # Save this to a variable called celsius_100, and use print() to print out the value
     # Is the resulting temperature you get an integer or float?
