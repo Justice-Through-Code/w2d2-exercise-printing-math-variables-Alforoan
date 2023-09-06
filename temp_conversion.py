@@ -1,8 +1,8 @@
 
 def convert_100_to_celsius():
     f = 100
-    c = (f-32) * 5/9
-    if(type (c) == float):
+    celsius_100 = (f-32) * 5/9
+    if(type (celsius_100) == float):
         print("float")
     else:
         print('integer')
